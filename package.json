@@ -54,7 +54,7 @@
     "eslint-config-airbnb-typescript": "^4.0.0",
     "eslint-config-jam": "^0.2.12",
     "jest": "^24.8.0",
-    "ts-gir": "^0.1.6",
+    "ts-gir": "^0.1.7",
     "tsc": "^1.20150623.0",
     "typescript": "^3.5.1"
   },

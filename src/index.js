@@ -168,3 +168,4 @@ GLib.Tree = class Tree extends GLibTree {
   }
 
 };
+export default GLib;
