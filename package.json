@@ -1,6 +1,6 @@
 {
   "name": "gnome-glib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "typescript bindings for gnome glib",
   "keywords": [
     "gnome-glib",
@@ -27,7 +27,7 @@
     "url": "https://github.com/codejamninja/gnome-glib"
   },
   "scripts": {
-    "tsgir": "ts-gir ./src/GLib-2.0.gir",
+    "tsgir": "ts-gir ./src/GLib-2.0.gir && npm run format",
     "build": "npm run tsgir && babel src -d lib && cp -r src/*.d.ts lib",
     "clean": "git clean -fXd -e \\!node_modules -e \\!node_modules/**/* && jest --clearCache",
     "clean:purge": "jest --clearCache && git clean -fXd",
