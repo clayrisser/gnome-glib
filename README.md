@@ -4,6 +4,8 @@
 
 > typescript bindings for gnome glib
 
+![](assets/gnome-glib.png)
+
 Please ★ this repo if you found it useful ★ ★ ★
 
 ## Features
